@@ -7,7 +7,7 @@ metadata:
   name: popod
 spec:
   containers:
-  - image: nginxinc/nginx-unprivilied
+  - image: docker.io/nginxinc/nginx-unprivileged
     name: popod
     resources: {}
   dnsPolicy: ClusterFirst
